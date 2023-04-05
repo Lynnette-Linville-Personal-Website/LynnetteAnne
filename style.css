@@ -1,3 +1,20 @@
+
+/* navigation */
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    color: blueviolet;
+    text-decoration: none;
+}    
+
+.nav a:hover {
+    color: lightblue;
+}
+
+
 /* heading */
 
 h1 {
@@ -34,4 +51,11 @@ h3 {
 p {
     color: whitesmoke;
     align-content: center;
+}
+
+/* body on about me */
+
+.galaxy {
+    background-image: url(https://mcdn.wallpapersafari.com/medium/63/69/AwQzN5.jpg);
+    background-color: black;
 }
