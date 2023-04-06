@@ -9,7 +9,7 @@
 .nav a {
     color: blueviolet;
     text-decoration: none;
-    margin-right: 40px;
+    margin: 0px 40px;
     border: solid;
     padding: 5px;
 }    
@@ -87,11 +87,12 @@ p {
 .projects div {
     background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Astonishing-Galaxy-Background.jpg);
     background-color: cadetblue;
-    padding: 30px;
+    padding: 55px 50px 20px 50px;
     width: 200px;
     height: 200px;
     color: aliceblue;
     font-size: 400%;
+    text-align: center;
     
 }
 
@@ -102,4 +103,5 @@ h2 {
     padding: 10%;
     border: solid ;
     margin-bottom: 50px;
+    
 }
