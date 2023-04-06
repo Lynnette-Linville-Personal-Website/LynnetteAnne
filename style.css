@@ -59,3 +59,9 @@ p {
     background-image: url(https://mcdn.wallpapersafari.com/medium/63/69/AwQzN5.jpg);
     background-color: black;
 }
+
+/* about me paragraph */
+
+.aboutme {
+    margin: 0px 60px;
+}
