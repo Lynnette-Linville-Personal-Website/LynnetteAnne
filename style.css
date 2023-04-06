@@ -65,3 +65,35 @@ p {
 .aboutme {
     margin: 0px 60px;
 }
+
+/* portfolio page project squares */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 500px;
+    height: 200px; */
+    gap: 60px;
+}
+
+/*  */
+
+.projects div {
+    background-color: cadetblue;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    font-size: 400%;
+    
+}
+
+/* portfolio heading */
+
+h2 {
+    color: azure;
+    padding: 10%;
+    border: solid ;
+    margin-bottom: 50px;
+}
