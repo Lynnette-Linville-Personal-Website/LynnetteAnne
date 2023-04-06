@@ -3,11 +3,15 @@
 
 .nav {
     overflow: hidden;
+
 }
 
 .nav a {
     color: blueviolet;
     text-decoration: none;
+    margin-right: 40px;
+    border: solid;
+    padding: 5px;
 }    
 
 .nav a:hover {
