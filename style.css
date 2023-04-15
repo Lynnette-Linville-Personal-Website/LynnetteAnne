@@ -82,7 +82,7 @@ p {
     gap: 60px;
 }
 
-/*  */
+
 
 .projects div {
     background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Astonishing-Galaxy-Background.jpg);
@@ -91,7 +91,7 @@ p {
     width: 200px;
     height: 200px;
     color: aliceblue;
-    font-size: 400%;
+    font-size: 4em;
     text-align: center;
     
 }
@@ -105,3 +105,42 @@ h2 {
     margin-bottom: 50px;
     
 }
+
+/* form */
+
+form {
+    padding: 4em;
+}
+
+label {
+    color: blueviolet;
+}
+  
+
+
+
+/* button */
+button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+    margin-top: 2em;
+  }
+
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: blueviolet;
+    cursor: pointer; /* displays a hand */
+  }
+
+/* CSS Selectors
+Use at least one of the following selectors: media queries, 
+nth selectors, !important, hierarchical selectors
+
+Advanced CSS Rules
+Use at least one of the following rules: box-sizing, 
+backgrounds, DOM ordering, z-index, transitions, calc, 
+common shorthands */

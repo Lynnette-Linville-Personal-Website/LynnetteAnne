@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactMe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="javascript.js"></script> -->
 </head>
 <body>
 
@@ -17,19 +19,28 @@
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact Me</a>
     </div>   
-    
+
 <!--
 contect form: name field
 email field
 message field
 submit button
+<button onclick="showAlert()">Show alert</button>
 -->
-<form action="">
+
+<!-- Design and build an HTML form with a variety of 
+    input types. Form must have a functional submit button 
+    leading to another page. -->
+
+<form>
+<label for="name">name</label><br>
+<input type="text" id="name" name="name"><br> 
 <label for="email">email</label><br>
 <input type="text" id="email" name="email"><br>
 <label for="message">message</label><br>
 <input type="text" id="message" name="message"><br>
-<input type="submit" value="submit">
+<!-- <input type="submit" value="submit"> -->
+<button onclick="showAlert()">Submit</button>
 
 </form>
 
