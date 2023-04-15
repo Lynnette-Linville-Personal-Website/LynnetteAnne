@@ -1,4 +1,13 @@
 
+/* Advanced CSS Rules
+Use at least one of the following rules: box-sizing, 
+backgrounds, DOM ordering, z-index, transitions, calc, 
+common shorthands  */
+
+/* CSS Selectors
+Use at least one of the following selectors: media queries, 
+nth selectors, !important, hierarchical selectors */
+
 /* navigation */
 
 .nav {
@@ -18,6 +27,14 @@
     color: lightblue;
 }
 
+/* media query */
+
+@media screen and (max-width: 600px) {
+    .nav a {
+      width: 100%;
+      margin: 1em;
+    }
+  }
 
 /* heading */
 
@@ -58,7 +75,7 @@ p {
     margin: 0px 20%;
 }
 
-/* body on about me */
+/* about me background image */
 
 .galaxy {
     background-image: url(https://mcdn.wallpapersafari.com/medium/63/69/AwQzN5.jpg);
@@ -136,11 +153,5 @@ button {
     cursor: pointer; /* displays a hand */
   }
 
-/* CSS Selectors
-Use at least one of the following selectors: media queries, 
-nth selectors, !important, hierarchical selectors
 
-Advanced CSS Rules
-Use at least one of the following rules: box-sizing, 
-backgrounds, DOM ordering, z-index, transitions, calc, 
-common shorthands */
+
