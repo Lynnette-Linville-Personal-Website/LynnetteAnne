@@ -1,3 +1,41 @@
+
+/* Advanced CSS Rules
+Use at least one of the following rules: box-sizing, 
+backgrounds, DOM ordering, z-index, transitions, calc, 
+common shorthands  */
+
+/* CSS Selectors
+Use at least one of the following selectors: media queries, 
+nth selectors, !important, hierarchical selectors */
+
+/* navigation */
+
+.nav {
+    overflow: hidden;
+
+}
+
+.nav a {
+    color: blueviolet;
+    text-decoration: none;
+    margin: 0px 40px;
+    border: solid;
+    padding: 5px;
+}    
+
+.nav a:hover {
+    color: lightblue;
+}
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+    .nav a {
+      width: 100%;
+      margin: 1em;
+    }
+  }
+
 /* heading */
 
 h1 {
@@ -9,7 +47,7 @@ h1 {
 /* picture */
 
 img {
-    width: 40em;
+    width: 25em;
 }
 
 /* body */
@@ -34,4 +72,87 @@ h3 {
 p {
     color: whitesmoke;
     align-content: center;
+    margin: 0px 20%;
 }
+
+/* about me background image */
+
+.galaxy {
+    background-image: url(https://mcdn.wallpapersafari.com/medium/63/69/AwQzN5.jpg);
+    background-color: black;
+}
+
+/* about me paragraph */
+
+.aboutme {
+    margin: 0px 20%;
+}
+
+/* portfolio page project squares */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 500px;
+    height: 200px; */
+    gap: 60px;
+}
+
+
+
+.projects div {
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Astonishing-Galaxy-Background.jpg);
+    background-color: cadetblue;
+    padding: 55px 50px 20px 50px;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+/* portfolio heading */
+
+h2 {
+    color: azure;
+    padding: 10%;
+    border: solid ;
+    margin-bottom: 50px;
+    
+}
+
+/* form */
+
+form {
+    padding: 4em;
+}
+
+label {
+    color: blueviolet;
+}
+  
+
+
+
+/* button */
+button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+    margin-top: 2em;
+  }
+
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: blueviolet;
+    cursor: pointer; /* displays a hand */
+  }
+
+ 
+
+
